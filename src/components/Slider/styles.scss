@@ -1,11 +1,7 @@
 .container {
-  width: 100%;
-  height: 800px;
+  width: 1200px;
+  height: 700px;
   overflow: hidden;
-
-  & button {
-    z-index: 10;
-  }
 }
 
 .slider {
@@ -14,17 +10,35 @@
   transition: all 1s ease;
 
   &-btn {
-    background: rgba(0, 0, 0, 0);
-    border: 0;
-    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    & button {
+      background-color: rgba(0, 0, 0, 0);
+      border: 0;
+      cursor: pointer;
+    }
   }
 }
 
 .block {
-  width: 90%;
+  width: 1200px;
   height: 800px;
-  background-color: black;
-  opacity: 0.8;
-  color: #fff;
-  font-size: 500px;
+}
+
+.slider-block {
+  display: grid;
+  grid-template-columns: 1200px 50px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.radio-btns {
+  width: 50px;
+  color: #f2cf17;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 30px);
+  user-select: none;
+  outline: none;
 }

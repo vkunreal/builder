@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,700&display=swap");
+
+.page1 {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  &-leftside {
+    width: 400px;
+    justify-self: center;
+    margin-top: 40px;
+  }
+
+  &-promo {
+    width: 150px;
+    height: 40px;
+    background-color: #f2cf17;
+    color: #020202;
+    font-size: 16px;
+    border-radius: 37px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34px;
+  }
+
+  &-heading {
+    font-family: "Roboto Flex";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+  }
+
+  &-brand {
+    font-family: "Roboto Flex";
+    font-size: 96px;
+    font-weight: 900;
+  }
+
+  &-underheading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  &-source {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 64px;
+  }
+}
