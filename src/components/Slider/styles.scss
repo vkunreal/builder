@@ -1,6 +1,6 @@
 .container {
   width: 900px;
-  height: 700px;
+  height: 800px;
   overflow: hidden;
 }
 
@@ -23,7 +23,10 @@
 
 .block {
   width: 900px;
-  height: 700px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .slider-block {
