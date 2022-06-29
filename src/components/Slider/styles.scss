@@ -1,5 +1,5 @@
 .container {
-  width: 1200px;
+  width: 900px;
   height: 700px;
   overflow: hidden;
 }
@@ -22,13 +22,13 @@
 }
 
 .block {
-  width: 1200px;
-  height: 800px;
+  width: 900px;
+  height: 700px;
 }
 
 .slider-block {
   display: grid;
-  grid-template-columns: 1200px 50px;
+  grid-template-columns: 900px 50px;
   justify-content: center;
   margin-top: 100px;
 }
@@ -41,4 +41,28 @@
   grid-template-rows: repeat(5, 30px);
   user-select: none;
   outline: none;
+  padding-top: 150px;
+  justify-content: center;
+}
+
+.logo {
+  padding-top: 40px;
+  padding-left: 150px;
+}
+
+.pagePC {
+  margin-left: 6px;
+}
+
+input[type="radio"]:checked:before {
+  width: 14px;
+  height: 14px;
+  background: #f2cf17;
+  content: "";
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: -2px;
+  margin-top: -2px;
 }

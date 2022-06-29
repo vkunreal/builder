@@ -34,7 +34,7 @@ export const Page1: React.FC = React.memo(() => {
       </div>
 
       {/* iPhone image */}
-      <div>
+      <div className="page1-iphone">
         <img src={iphone} alt="iPhone" />
       </div>
     </div>

@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,700&display=swap");
 
 .page1 {
-  color: #fff;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  color: #fff;
 
   &-leftside {
     width: 400px;

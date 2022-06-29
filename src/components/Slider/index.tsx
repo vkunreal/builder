@@ -25,7 +25,9 @@ export const Slider: React.FC = () => {
   return (
     <div>
       {/* logo */}
-      <img src={logo} alt="Logo" />
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+      </div>
 
       {/* clider with pages */}
       <div className="slider-block">
@@ -46,7 +48,7 @@ export const Slider: React.FC = () => {
         {/* radio btns */}
         <form className="radio-btns" style={{ margin: "30px" }}>
           {btns.map((btn) => (
-            <label>
+            <label key={btn}>
               <input
                 type="radio"
                 name="slider"
@@ -54,7 +56,7 @@ export const Slider: React.FC = () => {
                 checked={page === btn}
                 onChange={handleRadioClick}
               />
-              0{btn}
+              <span className="pagePC">0{btn}</span>
             </label>
           ))}
         </form>
